@@ -10,6 +10,175 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+body{
+    background:#fff;
+    width: auto;
+    min-width: 960px;
+}
+
+H1{ font-size: 180%;
+}
+H2{ font-size: 160%;
+}
+
+H3{ font-size: 140%;
+}
+H4{ font-size: 120%;
+}
+H5{ font-size: 100%;
+}
+H6{ font-size: 80%;
+}
+p{ font-size: 80%;
+    
+}
+
+
+
+#nav{
+    background: #000;
+    width: auto;
+    margin-top: -16px;
+}
+
+#nav ul{
+    text-align: center;
+    word-spacing: 70px;
+}
+#nav ul li{
+
+    display: inline;
+}
+
+#nav ul li a{
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;    
+}
+
+header img{
+    margin-left: 9%;
+}
+#services{
+    padding-top: 50px;
+}
+
+#container-wrap{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Photoshoot{
+    width: 27%;
+    float: right;
+    position: relative;
+    padding-right: 5%;
+    padding-bottom: 63px;
+}
+
+#Photoshoot h3{
+    margin-left: 67px;   
+}
+
+#Photojournal{
+    width: 27%;
+    float: right;
+    position: relative;
+    padding-right: 5%;
+    padding-bottom: 63px;
+
+}
+#Photojournal h3{
+    margin-left: 67px;   
+}
+
+#PhotoEditing{
+    width: 27%;
+    float: right;
+    position: relative;
+    padding-right: 5%;
+    padding-bottom: 63px;
+
+}
+
+#PhotoEditing h3{
+    margin-left: 67px;   
+}
+
+#about{
+width: 593px;
+text-align: center;
+padding-top: 222px;
+margin-left: auto;
+margin-right: auto;
+    
+}
+
+#footer-wrap{
+padding: 1px 0;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+background: #333333 url('../img/widget-bg.jpg');
+}
+
+
+#footer-wrap{
+    color: #fff;
+    
+}
+
+#location{
+float: right;
+margin-top: -94px;
+padding-right: 10px;
+}
+
+#location h3{
+line-height: 10px;
+margin-left: 73px;
+margin-top: 42px;
+
+
+}
+#location h4{
+    margin-top: -1px;
+}
+#social{
+    word-spacing: -102px;
+    margin-left: 19px;
+}
+
+
+#social img{
+    margin-top: -89px;
+    margin-left: 109px;
+}
+
+#sponsors-wrap{
+    background: #fff url(../img/sp-bg.jpg) repeat-x;
+    padding: 45px 0;
+    border-bottom: 1px solid #c8c8c8;
+
+}
+#sp{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#sp ul li{
+    width: 32%;
+    float: left;
+    margin-top: -54px;    
+    text-align: center;
+}
+
+
+
+
+
 html {
     color: #222;
     font-size: 1em;
