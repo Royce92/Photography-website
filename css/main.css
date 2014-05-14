@@ -49,6 +49,7 @@ p{ font-size: 80%;
 #nav ul li{
 
     display: inline;
+    font: menu;
 }
 
 #nav ul li a{
@@ -78,8 +79,8 @@ header img{
     padding-bottom: 63px;
 }
 
-#Photoshoot h3{
-    margin-left: 67px;   
+#Photoshoot h4{
+    text-align: center;
 }
 
 #Photojournal{
@@ -90,8 +91,8 @@ header img{
     padding-bottom: 63px;
 
 }
-#Photojournal h3{
-    margin-left: 67px;   
+#Photojournal h4{
+    text-align: center;
 }
 
 #PhotoEditing{
@@ -103,8 +104,8 @@ header img{
 
 }
 
-#PhotoEditing h3{
-    margin-left: 67px;   
+#PhotoEditing h4{
+    text-align: center;
 }
 
 #about{
@@ -148,14 +149,15 @@ margin-top: 42px;
     line-height: 0px;}
 
 #social{
-    word-spacing: -102px;
-    margin-left: 19px;
+    word-spacing: -15px;
+    margin-top: -62px;
+    margin-left: 138px;
+    position: absolute;
 }
 
 
 #social img{
     word-spacing: -95px;
-    position: absolute;
     margin-left: 19px;
 }
 
