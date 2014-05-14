@@ -12,6 +12,26 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+        
+        
+          <style>
+            /* Prevents slides from flashing */
+            #slides {
+              display:none;
+            }
+          </style>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jquery.slides.min.js"></script>
+      
+        <script>
+          $(function(){
+            $("#slides").slidesjs({
+              width: 940,
+              height: 528
+            });
+          });
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -32,6 +52,14 @@
 		</div>
 	    </header>
 	</div><!-- end header wrap -->
+        
+          <div id="slides">
+            <img src="http://placehold.it/940x528">
+            <img src="http://placehold.it/940x528">
+            <img src="http://placehold.it/940x528">
+            <img src="http://placehold.it/940x528">
+            <img src="http://placehold.it/940x528">
+          </div>
         
         <div id="container-wrap">
             <div id="services">
@@ -73,16 +101,6 @@
                 <h4>Location</h4>
                 <p>123 SomeStreet Elizabeth, NJ</p>
 
-                </div>
-                <div id="sponsors-wrap" class="group">
-                    <div id="sp">
-                        <ul>
-                            <li><img src="img/sp-1.jpg" alt="" /></li>
-                            <li><img src="img/sp-2.jpg" alt="" /></li>
-                            <li><img src="img/sp-3.jpg" alt="" /></li>
-
-                        </ul>
-                    </div>
                 </div>
             </footer>
         </div>
