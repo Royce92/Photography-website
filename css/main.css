@@ -34,7 +34,12 @@ p{ font-size: 80%;
     
 }
 
-
+header h5{
+    float: right;
+    margin-top: 108px;
+    padding-right: 50px;
+    color: red;
+}
 
 #nav{
     background: #000;
@@ -59,8 +64,10 @@ p{ font-size: 80%;
     text-decoration: none;    
 }
 
-header img{
-    margin-left: 9%;
+
+
+#slider img{
+    width:960px;
 }
 #services{
     padding-top: 50px;
@@ -75,7 +82,7 @@ header img{
     width: 27%;
     float: right;
     position: relative;
-    padding-right: 5%;
+    padding-right: 2%;
     padding-bottom: 63px;
 }
 
