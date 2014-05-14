@@ -144,8 +144,9 @@ margin-top: 42px;
 
 }
 #location h4{
-    margin-top: -1px;
-}
+    margin-top: 38px;
+    line-height: 0px;}
+
 #social{
     word-spacing: -102px;
     margin-left: 19px;
@@ -153,8 +154,9 @@ margin-top: 42px;
 
 
 #social img{
-    margin-top: -89px;
-    margin-left: 109px;
+    word-spacing: -95px;
+    position: absolute;
+    margin-left: 19px;
 }
 
 #sponsors-wrap{
